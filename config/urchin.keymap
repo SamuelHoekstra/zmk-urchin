@@ -123,19 +123,19 @@
 
         // Main modifiers and arrow keys
 
-        ext_layer {
-            label = "Mods";
+        NAV_layer {
+            label = "NAV";
             bindings = <
-&kp ESC    &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_PAUSE      &kp PG_UP     &kp HOME  &kp UP    &kp END    &kp CAPS
-&sk LALT   &sk LGUI    &sk LSHIFT  &sk LCTRL   &kp RALT         &kp PG_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
-&kp LC(Z)  &kp LC(X)   &kp LC(C)   &kp TAB     &kp LC(V)        &kp LC(BSPC)  &kp BSPC  &trans    &trans     &trans
-                                   &trans      &kp LCTRL        &kp ENTER     &mo FNC
+&kp ESC         &trans             &kp C_PP     &kp C_NEXT     &kp C_PAUSE          &kp PG_UP     &kp HOME  &kp UP    &kp END    &kp CAPS
+&kp TAB         &sk LGUI           &sk LCTRL    &sk LEFT_ALT   &kp ENTER            &kp PG_DN     &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL
+&kp LC(DELETE)  &kp LC(BACKSPACE)  &kp LC(ESC)  &kp PAGE_DOWN  &kp LC(PAGE_UP)      &kp LC(BSPC)  &kp BSPC  &trans    &trans     &trans
+                                                &trans         &kp SPACE            &kp ENTER     &mo FNC
             >;
         };
 
         // Function keys with modifiers
 
-        fnc_layer {
+        number_layer {
             label = "FRow";
             bindings = <
 &kp F1    &kp F2    &kp F3      &kp F4     &kp F5        &kp F6   &kp F7   &kp F8           &kp F9  &kp F10
