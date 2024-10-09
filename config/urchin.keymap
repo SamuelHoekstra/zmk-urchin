@@ -150,10 +150,10 @@
         funct_layer {
             label = "Func.";
             bindings = <
-&kp IT_CARET  &kp IT_UNDER  &kp IT_PND   &kp IT_EUR   &kp IT_HASH      &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
-&kp IT_BKTK   &kp IT_TILDE  &kp IT_BSLH  &kp IT_PIPE  &kp IT_AND       &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&none         &none         &kp IT_SECT  &kp IT_CCED  &kp IT_DEG       &kp F11  &kp F12  &none   &none   &none
-                                         &to 0        &none            &none    &none
+&kp IT_CARET  &kp IT_UNDER  &kp IT_PND   &kp IT_EUR   &kp IT_HASH         &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&kp IT_BKTK   &kp IT_TILDE  &kp IT_BSLH  &kp IT_PIPE  &kp IT_AND          &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
+&none         &none         &kp IT_SECT  &kp IT_CCED  &kp IT_DEG          &kp F11  &kp F12  &none   &none   &none
+                                         &to 0        &kp LEFT_SHIFT      &none    &none
             >;
         };
 
