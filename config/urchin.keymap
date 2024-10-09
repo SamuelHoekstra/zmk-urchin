@@ -78,11 +78,6 @@
             bindings = <&kp LC(SPACE)>;
             layers = <BASE>;
         };
-
-        Togle_lay3 {
-            bindings = <&mo 3>;
-            key-positions = <30 33>;
-        };
     };
 
     keymap {
@@ -170,6 +165,15 @@
 &none        &none  &none  &none       &bt BT_SEL 2      &bt BT_SEL 5  &none  &none     &none  &none
                            &none       &none             &none         &none
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        layer_3 {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
