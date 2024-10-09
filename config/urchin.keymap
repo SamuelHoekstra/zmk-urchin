@@ -112,10 +112,10 @@
         NAV_layer {
             label = "Nav.";
             bindings = <
-&kp ESC     &trans         &to 4      &to 5          &kp GLOBE        &trans    &trans    &trans        &trans     &sk TAB
-&kp TAB     &sk LGUI       &sk LCTRL  &sk LEFT_ALT   &kp ENTER        &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp END
-&kp DELETE  &kp BACKSPACE  &kp ESC    &kp PAGE_DOWN  &kp PAGE_UP      &kp HOME  &trans    &trans        &trans     &trans
-                                      &trans         &kp SPACE        &trans    &trans
+&kp ESC     &trans         &to 4      &to 5          &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT      &trans    &trans    &trans        &trans     &sk TAB
+&kp TAB     &sk LGUI       &sk LCTRL  &sk LEFT_ALT   &kp ENTER                                 &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp END
+&kp DELETE  &kp BACKSPACE  &kp ESC    &kp PAGE_DOWN  &kp PAGE_UP                               &kp HOME  &trans    &trans        &trans     &trans
+                                      &trans         &kp SPACE                                 &trans    &trans
             >;
         };
 
