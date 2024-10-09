@@ -105,7 +105,7 @@
         NAV_layer {
             label = "Nav.";
             bindings = <
-&kp ESC     &kp CAPS       &to 4      &to 5          &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT      &none     &none     &none         &none      &sk TAB
+&kp ESC     &kp CAPS       &to 4      &to 5          &sk C_AC_NEXT_KEYBOARD_LAYOUT_SELECT      &none     &none     &none         &none      &sk TAB
 &kp TAB     &sk LGUI       &sk LCTRL  &sk LEFT_ALT   &kp ENTER                                 &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp END
 &kp DELETE  &kp BACKSPACE  &kp ESC    &kp PAGE_DOWN  &kp PAGE_UP                               &kp HOME  &none     &none         &none      &none
                                       &trans         &kp SPACE                                 &trans    &trans
