@@ -96,7 +96,7 @@
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT      &kp CARET       &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp GRAVE        &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(Z)        &kp MINUS       &sk LEFT_ALT   &sk RCTRL          &sk LEFT_GUI          &kp PIPE
 &kp IT_GREAT     &kp EQUAL    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LC(Y)        &kp UNDERSCORE  &kp SQT        &kp DOUBLE_QUOTES  &kp IT_PLUS           &kp BACKSLASH
-                                                &trans             &key_repeat      &trans          &trans
+                                                &trans             &trans           &trans          &trans
             >;
         };
 
