@@ -69,6 +69,11 @@
             bindings = <&mo SETTINGS>;
         };
 
+        MEH {
+            bindings = <&kp LS(LA(LG(LEFT_CONTROL)))>;
+            key-positions = <32 33>;
+        };
+
         // left index & middle fingers (home-row)
         // hold control & space for Adobe workflow
     };
